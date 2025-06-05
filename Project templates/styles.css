@@ -1,0 +1,72 @@
+/* Paragraph tag styles */
+p {
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+}
+.service-img {
+  transition: transform 0.3s ease;
+}
+
+.service-img:hover {
+  transform: scale(1.2);
+}
+
+/* Styling for strong tags (price) */
+strong {
+  color: brown;
+}
+
+/* Hover effect for prices */
+strong:hover {
+  background-color: lightgray; /* This changes background color on hover */
+}
+
+/* Custom class for product names */
+.names {
+  font-family: Sans-Serif;
+  font-size: larger;
+}
+/* Basic styles for service blocks */
+.service {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #e6f7ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Animate card on hover */
+.service:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Enlarge service image on hover */
+.service-img {
+  transition: transform 0.3s ease;
+}
+
+.service-img:hover {
+  transform: scale(1.2);
+}
+
+/* Text styling */
+p {
+  background-color: aqua;
+  color: blueviolet;
+}
+
+strong {
+  color: brown;
+}
+
+strong:hover {
+  background-color: lightgray;
+}
+
+.names {
+  font-family: Sans-Serif;
+  font-size: larger;
+}
+
